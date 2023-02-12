@@ -11,7 +11,7 @@
           }
           h2
           {
-            width: 100%
+            width: 100%;
             font-size: 22pt;
             color: #9acd32;
             background-color: #E0E0E0;
@@ -61,7 +61,7 @@
                 <xsl:value-of select="Description"/>
               </td>
               <td>
-                <a href="{ManufacturerUrl}">
+                <a href="https://{ManufacturerUrl}">
                   <xsl:value-of select="ManufacturerUrl"/>
                 </a>
               </td>
