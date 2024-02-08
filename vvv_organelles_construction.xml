@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="vvv_organelles.xslt" type="text/xsl" ?>
+<VVV_Organelles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vvv_organelles.xsd">
+  <Organelle Class="Fanta" ClassImage="fanta.svg" Species="DesignManager">
+    <CppClass>design_manager</CppClass>
+    <Description>Allows loading, unloading and remote updating of construction designs.</Description>
+    <ManufacturerUrl>viviverse.com</ManufacturerUrl>
+    <Donor>
+      <Family>DesignManager</Family>
+    </Donor>
+    <BuildResources>
+      <LibraryName>vvv_construction</LibraryName>
+      <ResourceName>vvv_design_manager</ResourceName>
+    </BuildResources>
+  </Organelle>
+</VVV_Organelles>
