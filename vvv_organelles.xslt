@@ -52,7 +52,7 @@
           <xsl:for-each select="VVV_Organelles/Organelle">
             <tr>
               <td>
-                <xsl:value-of select="@Class"/>
+                <img src="{ClassImage}"/>
               </td>
               <td>
                 <xsl:value-of select="@Species"/>
